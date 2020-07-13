@@ -1,0 +1,68 @@
+body 
+{ 
+	background: url('../images/main_background.jpg'); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body img
+{
+	width: 100%
+}
+
+
+
+.buttons 
+{
+	position: absolute;
+	width: 55%;
+	height: 18%;
+	top: 5%;
+	left: 42%;
+	
+}
+
+.buttons a 
+{
+	display: inline-block;
+	width: 32%;
+	height: 100%; 	
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.aboutMe
+{
+	background: url('../images/aboutMe.png');
+}
+
+.aboutMe:hover
+{
+	background: url('../images/aboutMe_press.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.myProject
+{
+	background: url('../images/myProject.png');
+}
+
+.myProject:hover
+{
+	background: url('../images/myProject_press.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.hobby
+{
+	background: url('../images/hobby.png');
+}
+
+.hobby:hover
+{
+	background: url('../images/hobby_press.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
